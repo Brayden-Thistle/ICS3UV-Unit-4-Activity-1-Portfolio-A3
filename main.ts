@@ -10,14 +10,14 @@ let Startnumber: number;
 let Endnumber: number;
 
 // prompts with if statement
-StartValue = Number(prompt("Enter your start value."));
-EndValue = Number(prompt("Enter your end value"));
-if (EndValue < StartValue ) {
+Startnumber = Number(prompt("Enter your start value."));
+Endnumber = Number(prompt("Enter your end value"));
+if (Endnumber < Startnumber ) {
   console.log("Sorry, your ending value has to be larger than your starting value, please enter another value.");
 }
 
 
-for (let currentvalue: number = StartValue; currentvalue < EndValue; currentvalue++) {
+for (let currentvalue: number = Startnumber; currentvalue < Endnumber; currentvalue++) {
   console.log(currentvalue);
 }
 
