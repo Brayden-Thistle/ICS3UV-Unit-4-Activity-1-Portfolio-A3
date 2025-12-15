@@ -6,22 +6,18 @@
  */
 
 //values
-let StartValue: number;
-let EndValue: number;
+let Startnumber: number;
+let Endnumber: number;
 
 // prompts with if statement
 StartValue = Number(prompt("Enter your start value."));
-EndValue = Number (prompt("Enter your end value"));
+EndValue = Number(prompt("Enter your end value"));
 if (EndValue < StartValue ) {
   console.log("Sorry, your ending value has to be larger than your starting value, please enter another value.");
 }
 
-//loop
-for (
-  let currentvalue: number = StartValue; 
-  currentvalue < EndValue;
-  currentvalue++
-) {
+
+for (let currentvalue: number = StartValue; currentvalue < EndValue; currentvalue++) {
   console.log(currentvalue);
 }
 
