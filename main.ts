@@ -6,12 +6,10 @@
  */
 
 //values
-let Startnumber: number;
-let Endnumber: number;
+const Startnumber = Number(prompt("Enter your start value."));
+const Endnumber = Number(prompt("Enter your end value"));
 
-// prompts with if statement
-Startnumber = Number(prompt("Enter your start value."));
-Endnumber = Number(prompt("Enter your end value"));
+// if statement
 if (Endnumber < Startnumber ) {
   console.log("Sorry, your ending value has to be larger than your starting value, please enter another value.");
 }
